@@ -2,7 +2,9 @@ Homebrew-alt
 ============
 This repository contains "unofficial" formulae for [Homebrew](https://github.com/mxcl/homebrew). 
 
-These are some largely unstable, poorly tested scripts I use for myself and that may be useful for others.
+These are some largely unstable, poorly tested scripts I use for myself and that may be 
+useful for others. Some of these packages may require other Taps. Always run 
+`brew info <formula>` before install.
 
 Installing Homebrew-alt Formulae
 --------------------------------
@@ -23,7 +25,7 @@ Relevant Information about packages
 
 * **submarine** 
 This package requires newer versions of autoconf and automake than those provided by Apple. 
-Run `brew info submarine` for details
+Run `brew info submarine` for details.
 
 Docs
 ----
