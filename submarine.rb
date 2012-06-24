@@ -23,6 +23,17 @@ class Submarine < Formula
     
     system "make install" # if this fails, try separate make/make install steps
   end
+  
+  
+  def caveats
+    <<-EOS.undent
+    This package requires newer autoconf and automake versions than those provided by 
+    Apple.
+
+    To properly install this package, you must run: 
+    export PATH=/usr/local/Cellar/autoconf/2.69/bin:/usr/local/Cellar/automake/1.12.1/bin:$PATH
+    EOS
+  end
 
   def test
     # This test will fail and we won't accept that! It's enough to just replace

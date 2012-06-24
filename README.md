@@ -18,6 +18,13 @@ You can also install via URL:
 brew install https://raw.github.com/orpiske/homebrew-alt/master/<directory>/<formula>.rb
 ```
 
+Relevant Information about packages
+----
+
+* **submarine** 
+This package requires newer versions of autoconf and automake than those provided by Apple. 
+Run `brew info submarine` for details
+
 Docs
 ----
 `brew help`, `man brew`, or the Homebrew [wiki][].
