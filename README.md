@@ -28,7 +28,7 @@ Run `brew info submarine` for details.
 
 Docs
 ----
-`brew help`, `man brew`, or the Homebrew [site][https://github.com/mxcl/homebrew].
+`brew help`, `man brew`, or the Homebrew [site](https://github.com/mxcl/homebrew).
 
 * [homebrew-dupes](https://github.com/Homebrew/homebrew-dupes)
 * [homebrew-versions](https://github.com/Homebrew/homebrew-versions)
