@@ -1,8 +1,5 @@
 require 'formula'
 
-# Documentation: https://github.com/mxcl/homebrew/wiki/Formula-Cookbook
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class Submarine < Formula
   homepage ''
   url 'https://github.com/blazt/submarine/tarball/0.1.3'
@@ -12,10 +9,9 @@ class Submarine < Formula
   depends_on 'glib' => :build
   depends_on 'libgee' => :build
   depends_on 'libsoup' => :build
-  depends_on 'libarchive' => :build
+  depends_on 'homebrew/dupes/libarchive' => :build
 
   def install
-    # ENV.j1  # if your formula's build system can't parallelize
 
     system "./autogen.sh"
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
