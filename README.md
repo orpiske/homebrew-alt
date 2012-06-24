@@ -28,9 +28,8 @@ Run `brew info submarine` for details.
 
 Docs
 ----
-`brew help`, `man brew`, or the Homebrew [wiki][].
+`brew help`, `man brew`, or the Homebrew [site][https://github.com/mxcl/homebrew].
 
-[wiki]:http://wiki.github.com/mxcl/homebrew
-[homebrew-dupes]:https://github.com/Homebrew/homebrew-dupes
-[homebrew-versions]:https://github.com/Homebrew/homebrew-versions
-[homebrew-boneyard]:https://github.com/Homebrew/homebrew-boneyard
+* [homebrew-dupes](https://github.com/Homebrew/homebrew-dupes)
+* [homebrew-versions](https://github.com/Homebrew/homebrew-versions)
+* [homebrew-boneyard](https://github.com/Homebrew/homebrew-boneyard)
