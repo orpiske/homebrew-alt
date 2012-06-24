@@ -23,8 +23,7 @@ brew install https://raw.github.com/orpiske/homebrew-alt/master/<directory>/<for
 Relevant Information about packages
 ----
 
-* **submarine** 
-This package requires newer versions of autoconf and automake than those provided by Apple. 
+* **submarine** This package requires newer versions of autoconf and automake than those provided by Apple. 
 Run `brew info submarine` for details.
 
 Docs

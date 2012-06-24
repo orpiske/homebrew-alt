@@ -32,8 +32,7 @@ class Submarine < Formula
     To install homebrew dupes, run: 
     brew tap homebrew/dupes
     
-	This package also requires newer autoconf and automake versions than those provided by 
-    Apple. 
+    This package also requires newer autoconf and automake versions than those provided by Apple. 
 
     To properly install this package, you must run: 
     export PATH=/usr/local/Cellar/autoconf/2.69/bin:/usr/local/Cellar/automake/1.12.1/bin:$PATH
